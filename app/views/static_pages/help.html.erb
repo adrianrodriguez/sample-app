@@ -1,2 +1,4 @@
-<h1>StaticPages#help</h1>
-<p>Find me in app/views/static_pages/help.html.erb</p>
+<% provide(:title, 'Help') %>
+
+<h1>Help</h1>
+<p>Need help: See if your topic has already been addressed below. If not, send us a support ticket: <%= mail_to 'support@sample-app.com' %></p>
